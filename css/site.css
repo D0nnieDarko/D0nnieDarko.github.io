@@ -10,17 +10,18 @@ body {
 	
 	}
 
+	
 	#riotlogo {
 		position: absolute;
-		left: 90px;
-		top: 90px;
+		left: 10px;
+		top:-20px;
 	}
-
 	
 	div.scrollmenu {
-	
+  height: 100px;
+  width: 100%;
   background-color: #333;
-  overflow: auto;
+  overflow: none;
   white-space: nowrap;
 }
 
@@ -28,10 +29,16 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 50px;
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 div.scrollmenu a:hover {
-  background-color: #777;
+  background-color: #b3c7c9;
+color: white;
+-webkit-transition: 0.5s ease-in;
+-moz-transition: 0.5s ease-in;
+-o-transition: 0.5s ease-in;
+transition: 0.8s ease-in;
 }
