@@ -11,6 +11,7 @@ body {
 	}
 	
 	div.scrollmenu {
+		position: relative;
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
